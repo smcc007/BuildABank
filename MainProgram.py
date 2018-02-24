@@ -1,9 +1,11 @@
-from Bank import Bank
+from Account import Account as acc
 
 def mainProg():
-    TD = Bank("TD Canada Trust")
-    print TD
+    acc1 = acc()
+    print acc1
+    acc1.balance = 25
+    print acc1
+
 
 if __name__ == "__main__":
     mainProg()
-    
